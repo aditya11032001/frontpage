@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+header{
+background-color: #213555;
+top: 0%;
+display: flex;
+left: initial;
+height: 12vh;
+width: 100%;
+}
+.imga{
+    width: 40%;
+    height: 16vh;
+}
+.imga img{
+    border-radius: 10px 10px 10px 10px;
+    width: 40%;
+    height: 12vh;
+}
+.middle{
+    width: 10%;
+}
+.nav{
+    width: 100%;
+}
+.body_container{
+    background-color: #dfd98a;
+    padding: 25px;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 20px;
+    height: 70vh;
+    width: 100%;
+}
+.welcome{
+    margin-top: 100px;
+    width: 40%;
+}
+
+.wel{
+    font-size: 3rem;
+}
+.icon{
+    margin-top: 2px;
+    margin-left: 28px;
+}
+.fa {
+    padding: 8px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    /* background: #3B5998; */
+    color: black
+  }
+  
+  .fa-twitter {
+    /* background: #55ACEE; */
+    color: black
+  }
+  
+  .fa-google {
+    /* background: #dd4b39; */
+    color: black
+  }
+  
+  .fa-linkedin {
+    /* background: #007bb5; */
+    color: black
+  }
+  
+  .fa-youtube {
+    /* background: #bb0000; */
+    color: black
+  }
+  
+  .fa-instagram {
+    /* background: #125688; */
+    color: black
+  }
+  
+.content_body{
+    box-shadow: 0 35px 55px rgb(204, 193, 193);
+    margin-top: 85px;
+    border-radius: 5px;
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    word-spacing: 5px;
+}
+.content{
+    font-size: 14px;
+    padding: 10px;
+    text-align: left;
+}
+.content li{
+    padding: 4px;
+    list-style: none;
+}
+form{
+    padding-top: 10px;
+}
+.form_button{
+    margin-left: 25px;
+    width: 30%;
+    height: 100%;
+    padding: 5px;
+    float: left;
+    background-color: #213555;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .4s;
+    border: none;
+    
+    }
+    
+    .form_button:hover{
+    transform: scale(0.90);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.20);
+    }
+
+p{
+    font-size: 14px;
+    padding: 10px 0 0 30px;
+    text-align: left; 
+}
+
+
+/* about content */
+
+.about{
+    background-color: #213555;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    padding-top: 2px;
+    margin: 20px 0 20px 22.5rem;
+    width: 50%;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.log{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+.section{
+    width: 100%;   
+}
+.section a .image1{
+    padding-top: 0px;
+    margin-top: 4rem;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.section a  .image1 img{
+    width: 100%;
+    height: 100%;
+}
+.image1:hover{transition: .4s;
+    transform: scale(0.90);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.20);
+    border-radius: .5em;
+}
+.slide{
+    justify-content: space-around;
+    background-color: #dfd98a;
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    border-radius: 20px;
+}
+marquee{
+    /* background-image: url(img1.jpg); */
+    margin-top: 30px;
+    background-size: cover;
+    height: 50vh;
+    width: 45%;
+    border-radius: 20px;
+    
+}
+img{
+    height: 50vh;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+
+.thank{
+    border: 1px dotted grey;
+    margin-left: 16%;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 25%;
+    margin-top: 2%;
+    margin-bottom: 15px;
+    background: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 20px 55px rgba(0,0,1,0.2);
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+/* footer style */
+.footer_container{
+    height: 50vh;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.one{
+    background-color: #4F709C;
+    margin-top: 7.5vh;
+    height: 60%;
+    width: 100%;
+    transform: skewY(4deg);
+}
+.foot{
+    background-color: #213555;
+    display: flex;
+    height: 65vh;
+    width: 100%;
+    transform: skewY(-7deg);
+}
+.address{
+    width: 30vw;
+    padding: 10px;
+    transform: skewY(3deg);
+    padding: 50px;
+    color: #fff;
+    opacity: .9;
+    
+}
+.address h2{
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.address p{
+    font-size: 18px;
+}
+.right{
+    margin-top: 9rem;
+}
+.address .right p{
+    font-size: 16px;
+}
+.follow{
+    width: 30vw;
+    padding: 10px;
+    transform: skewY(3deg);
+    padding-top: 100px;
+    color: #fff;
+    opacity: .9;
+}
+.follow h2{
+    font-size: 21px;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.aditya{
+color: #fff;
+}
+
+.other{
+    width: 30vw;
+    padding: 10px;
+    transform: skewY(3deg);
+    padding: 50px;
+    color: #fff;
+    opacity: .9;
+}
+
+
